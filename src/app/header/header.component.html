@@ -1,0 +1,17 @@
+   <div class="container-fluid">
+    <div class="row">
+        <img src="assets/img/logo.png" width="50"> 
+    </div>
+    <div class="navigation">
+        <ul *ngFor="let header of elements">
+            <a (click)="changes(header.route)">{{header.pageName}}</a>
+        </ul>
+    </div>
+    <!-- Social Media İcons -->
+    <div class="icons">
+        <a href="https://www.twitter.com/rastmobile"><img src="../../assets/img/X_logo.jpg" alt="x" width="50"></a>
+        <a href="https://www.instagram.com/mobilerast"><img src="../../assets/img/Instagram_icon.png" alt="instagram" width="50"></a>
+        <a href="https://www.behance.net/rastmobile"><img src="../../assets/img/behence-logo.png" alt="behence" width="50"></a>
+        <a href="https://www.tr.linkedin.com/company/rastmobile"><img src="../../assets/img/youtube.jpeg" alt="youtube" width="50"></a>
+    </div>
+</div> 

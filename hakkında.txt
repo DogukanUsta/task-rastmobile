@@ -1,0 +1,32 @@
+# Kurulum
+
+1 - npm install ile gerekli node_modules dosyalarını indirin.
+
+ ** kurulumda yönetici izni ister ve hata verirse ' sudo npm install ' komutu ile tekrar deneyiniz.
+ ** macOs ve benzeri sistemlerde sürüm hatası alabilirsiniz. Bunu çözmek için ' sudo npm install --legacy-peer-deps' komutu ile tekrar deneyiniz.
+
+2 - Gerekli node_modules dosyaları yüklendikten sonra projeyi ' npm start ' komutu ile başlatabilirsiniz.
+
+3 - Proje başladıktan sonra terminal üzerinde hangi portta başladığını görebilir ve ctrl + mouse sol tık yaparak projeyi internet tarayıcısında açabilirsiniz.
+
+ ** macOs için command + mouse sol tık (touchpad normal tık / sol tık)
+
+
+# Bu projeden ne anladım?
+
+Bu proje, tablo ile kayıt ekleme ve görüntüleme, sıralama ve filtreleme ile ilgili bir projedir.
+
+
+- İzlenen adımlar.
+
+1 - Bu proje angular ile kodlandı ve kodlanmadan önce gerekli adımlar, kurulumlar yapıldı.
+2 - İlk olarak istenen proje componentlere bölündü.
+3 - Logo , sayfa içerikleri ve iconların bulunduğu header componenti oluşturuldu.
+4 - Header componenti için ilk önce html kodları yazıldı ve istenen tasarıma dönüştürülmek için css ile düzenlendi.
+5 - Header componenti bittikten sonra projenin temeleini oluşturan sosyal medya componenti oluşturuldu.
+6 - Anasayfa html kodları yazılmaya başlandı.
+7 - Anasayfa html kodları 3 bölüme ayrıldı. Arama çubuğu , tablo ve görüntüleme.
+8 - Anasayfa da kodlanarak css ile düzenlendi.
+9 - Anasayfada bulunan yeni kayıt ekleme yapısı için modal yapısı oluşturuldu.
+10 - Yeni kayıt eklemek için gerekli modal ın html ve css kodları yazıldı, butonlarla desteklendi.
+11- Proje, responsive olarak ayarlandı.
